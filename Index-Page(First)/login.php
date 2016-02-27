@@ -43,7 +43,7 @@ if(!empty($_POST))
 
 			echo "Welcome ".$data['username']."!";
 
-			header('Location: index2.html');
+			header('Location: ../Main/index.html');
 
 		}
 		else
